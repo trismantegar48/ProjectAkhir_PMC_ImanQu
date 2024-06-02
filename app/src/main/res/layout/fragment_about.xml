@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardnya"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tentang Aplikasi"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penghafalan Al-Quran merupakan salah satu ibadah yang memiliki banyak keutamaan dalam Islam. Proses menghafal Al-Quran tidak hanya memerlukan waktu dan dedikasi, tetapi juga memerlukan metode yang efektif dan dukungan yang konsisten. Di era digital ini, teknologi telah memberikan berbagai kemudahan dalam berbagai aspek kehidupan, termasuk dalam bidang pendidikan dan keagamaan. Oleh karena itu, lahirnya aplikasi IManQu (Insan Menghafal Quran) adalah sebagai solusi inovatif untuk membantu umat Muslim dalam menghafal Al-Quran dengan lebih mudah dan efektif."
+                android:textSize="16sp"
+                android:padding="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aplikasi IManQu hadir sebagai respons terhadap beberapa tantangan yang dihadapi para penghafal Al-Quran, seperti keterbatasan akses terhadap pengajar yang kompeten, metode penghafalan yang kurang variatif, serta kurangnya motivasi dan dukungan yang berkelanjutan. Dengan menggunakan aplikasi ini, pengguna dapat mengakses berbagai fitur yang dirancang khusus untuk mendukung proses penghafalan Al-Quran."
+                android:textSize="16sp"
+                android:padding="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alasan Kategorisasi Aplikasi IManQu sebagai Aplikasi Edukasi"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Pendidikan Keagamaan: IManQu secara langsung berkontribusi dalam pendidikan keagamaan dengan menyediakan alat dan sumber daya yang membantu pengguna dalam memahami, menghafal, dan mempraktikkan isi Al-Quran. Pengguna tidak hanya menghafal tetapi juga memahami makna dan konteks ayat-ayat yang dihafal, yang merupakan aspek penting dalam pendidikan agama."
+                android:textSize="16sp"
+                android:padding="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Metode Pembelajaran: Aplikasi ini menggunakan pendekatan pendidikan yang sistematis dan terstruktur. Fitur-fitur akan memastikan bahwa proses penghafalan tidak hanya sekedar mengingat tetapi juga belajar dan memahami secara mendalam."
+                android:textSize="16sp"
+                android:padding="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
