@@ -14,6 +14,7 @@ Aplikasi IManQu hadir sebagai respons terhadap beberapa tantangan yang dihadapi 
 - Tampilan Utama : Menampilkan seluruh daftar Surah dalam Al-Quran.
 - Tampilan Tentang Aplikasi : Halaman ini memberikan informasi mengenai aplikasi IManQu.
 - Tampilan Profil Pengguna : Pada tampilan ini, akan diberikan informasi bahwa saat ini pengguna sedang login di aplikasi.
+- Logout : Fitur logout memungkinkan pengguna untuk keluar dari akun mereka dengan aman.
 
 ## Persyaratan Pembuatan Project Aplikasi
 - Memiliki Activity
