@@ -26,5 +26,5 @@ Aplikasi IManQu hadir sebagai respons terhadap beberapa tantangan yang dihadapi 
 - Menggunakan SharedPreferences saat Login dan Register
 
 ## API
-[IManQu] (https://equran.id/apidev/v2)
+[IManQu](https://equran.id/apidev/v2)
 
